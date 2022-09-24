@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/output.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>dicto-Home</title>
+</head>
+
+<body class="bg-gradient-to-b from-green-700">
+    <header class="flex flex-col lg:flex-row backdrop-blur-md shadow-lg border-b-2 text-white justify-between align-middle top-0 sticky ">
+
+        <ul class="flex-1 flex justify-center items-center m-2">
+            <li class="flex-none flex flex-col justify-start">
+                <div class="border-b-2 w-10 my-1"></div>
+                <div class="border-b-2 w-10 my-2"></div>
+                <div class="border-b-2 w-10 my-1"></div>
+            </li>
+            <li class="flex-1 flex justify-center items-center">
+                <img class="rounded-full border-2 h-16 w-16" src="dicto-wbg.png" alt="LOGO">
+                <h1 class="text-6xl font-bold px-2">DICTO<span class="text-xl">.in</span></h1>
+            </li>
+        </ul>
+        <ul class="flex-1 flex justify-center items-center md:flex-0 m-2">
+            <li class="flex flex-row border-2 rounded-xl py-2" style="width : 100%">
+                <label class="px-3" for="search">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg>
+                </label>
+                <form action="/" method="POST">
+
+                    <input class="border-l-2 pl-5 bg-transparent outline-none w-full" id="search" name="search"
+                        placeholder="Search the code here">
+                </form>
+            </li>
+        </ul>
+        <ul class="flex-1 flex flex-row justify-center items-center m-2 lg:p-4">
+            <li class="flex justify-center align-middle px-3">
+                <a class="rounded hover:shadow-lg p-2 duration-300 " href="/"> Home</a>
+            </li>
+            <li class="flex justify-center align-middle px-3">
+                <a class="p-2 duration-300 hover:shadow-lg" href="/#"> Products</a>
+            </li>
+            <li class="flex justify-center align-middle px-3">
+                <a class="p-2 duration-300 hover:shadow-lg" href="/#"> About</a>
+            </li>
+            <li class=" flex justify-center align-middle px-3 border-2 p-2 rounded-lg hover:shadow-lg">
+                <a class="p-2 duration-300 truncate text-pink-300" href="/#"> Souhbh kotagi</a>
+                <img class="rounded-full w-10 h-10 shadow-lg" src="https://source.unsplash.com/users/" alt="profile">
+            </li>
+
+        </ul>
+    </header>
+    <main class="flex flex-col lg:flex-row ">
+        <div class="flex-1 flex-col flex justify-center items-start p-5">
+            <div class="text-6xl font-bold text-white">
+                <span class="text-green-700">YOUR VALUABLE BUSINESS,</span>
+                <br>
+                <span class="text-gray-700">OUR PERFECT SOLUTION!</span>
+            </div>
+            <div class="text-2xl font-bold text-white py-5">
+                The most trustable business solutions for small and medium type businesses.
+            </div>
+            <div class="flex flex-col">
+                <button
+                    class="transition duration-150 bg-indigo-500 hover:bg-gray-700 hover:shadow-lg text-white font-bold py-4 px-10 rounded">
+                    Explore >
+                </button>
+
+            </div>
+        </div>
+        <div class="flex-1">
+            <img class="p-12" src="business_deal.svg" alt="img">
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
