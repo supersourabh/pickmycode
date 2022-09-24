@@ -1,4 +1,0 @@
-{
-    "appService.defaultWebAppToDeploy": "/subscriptions/27cf4831-091b-4239-8267-1c0d34b4d604/AppServices/subscriptions/27cf4831-091b-4239-8267-1c0d34b4d604/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/pickmycode",
-    "appService.deploySubpath": "."
-}
